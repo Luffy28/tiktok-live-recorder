@@ -268,7 +268,7 @@ class TikTokRecorder:
 
         logger.info(f"Recording finished: {output}\n")
 
-        # NEW: Pass self.ffmpeg_path to VideoManagement so it uses the custom binary
+        #NEW: Pass self.ffmpeg_path to VideoManagement so it uses the custom binary
         VideoManagement.convert_flv_to_mp4(output, ffmpeg_path=self.ffmpeg_path)
 
         if self.use_telegram:

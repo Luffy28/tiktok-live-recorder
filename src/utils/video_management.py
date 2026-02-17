@@ -41,7 +41,7 @@ class VideoManagement:
                 file.replace("_flv.mp4", ".mp4"),
                 c="copy",
                 y="-y",
-            # NEW: cmd parameter tells ffmpeg-python which binary to use.
+            #NEW: cmd parameter tells ffmpeg-python which binary to use.
             # Defaults to "ffmpeg" so existing behavior is fully preserved.
             ).run(quiet=True, cmd=ffmpeg_path)
         except ffmpeg.Error as e:
