@@ -101,7 +101,7 @@ def parse_args():
         ),
     )
 
-    # NEW ARGUMENT: allows users to specify a custom path to the ffmpeg binary.
+    #NEW ARGUMENT: allows users to specify a custom path to the ffmpeg binary.
     # This is useful when ffmpeg is not installed via a package manager (e.g. apt)
     # and instead a standalone binary is stored in a custom location.
     # Default is "ffmpeg" which preserves original behavior (uses system PATH).

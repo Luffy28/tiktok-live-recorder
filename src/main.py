@@ -77,7 +77,7 @@ def run_recordings(args, mode, cookies):
             args.duration,
             args.telegram,
             cookies,
-            args.ffmpeg_path,  # NEW: pass ffmpeg_path for single user
+            args.ffmpeg_path,  #NEW: pass ffmpeg_path for single user
         )
 
 
